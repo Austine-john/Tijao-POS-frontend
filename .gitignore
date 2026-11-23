@@ -1,0 +1,47 @@
+# Tijao POS frontend (React + Vite, Node 22)
+#
+# The production build goes to ../backend/frappe-bench/apps/tijao_pos/tijao_pos/public/frontend
+# (outside this folder), so it is not listed here. Keep yarn.lock and .nvmrc committed.
+
+# Dependencies
+node_modules/
+.yarn/
+.pnp.*
+
+# Build / tool output
+dist/
+dist-ssr/
+*.tsbuildinfo
+.vite/
+vite.config.ts.timestamp-*
+.eslintcache
+.stylelintcache
+
+# Tests
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+.playwright-mcp/
+
+# Env files (never commit secrets; .env.example is fine)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
